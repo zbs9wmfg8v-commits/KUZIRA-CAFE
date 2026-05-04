@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>オリンピック選手プロフィール｜桜井 颯</title>
+  <style>
+    body {
+      font-family: "Segoe UI", "Hiragino Sans", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #eef1f5;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    /* ヘッダー */
+    header {
+      background: linear-gradient(135deg, #004aad, #0aa1ff);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+      font-weight: 700;
+    }
+    header p {
+      margin-top: 8px;
+      font-size: 15px;
+      opacity: 0.9;
+    }
+
+    /* メイン */
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 16px;
+    }
+
+    /* カード */
+    .card {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 24px 28px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      margin-bottom: 24px;
+    }
+
+    /* 見出し */
+    h2 {
+      margin-top: 0;
+      font-size: 22px;
+      border-left: 6px solid #0aa1ff;
+      padding-left: 10px;
+      font-weight: 700;
+      color: #004aad;
+    }
+
+    /* プロフィール表 */
+    .profile-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px 24px;
+      font-size: 15px;
+    }
+    .profile-grid div span {
+      font-weight: bold;
+      display: inline-block;
+      width: 130px;
+      color: #333;
+    }
+
+    /* リスト */
+    ul {
+      margin: 10px 0 0;
+      padding-left: 20px;
+    }
+
+    /* フッター */
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #666;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    /* スマホ対応 */
+    @media (max-width: 600px) {
+      .profile-grid {
+        grid-template-columns: 1fr;
+      }
+      header h1 {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>オリンピック選手プロフィール</h1>
+    <p>架空のスプリンター「桜井 颯（さくらい はやて）」</p>
+  </header>
+
+  <main>
+
+    <section class="card">
+      <h2>基本情報</h2>
+      <div class="profile-grid">
+        <div><span>名前：</span>桜井 颯（さくらい はやて）</div>
+        <div><span>年齢：</span>24歳</div>
+        <div><span>国籍：</span>日本</div>
+        <div><span>競技：</span>陸上（100m・200m）</div>
+        <div><span>所属：</span>ブルースカイ陸上クラブ</div>
+        <div><span>身長 / 体重：</span>178cm / 70kg</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>主な実績</h2>
+      <ul>
+        <li>2024年 パリ五輪 100m 銀メダル</li>
+        <li>2023年 世界陸上 ブダペスト大会 200m 4位</li>
+        <li>2022年 日本選手権 100m 優勝</li>
+        <li>2021年 アジア選手権 100m 金メダル</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>選手紹介</h2>
+      <p>
+        中学時代に陸上を始め、圧倒的な加速力と後半の伸びで注目を集める。
+        大学時代には日本記録に迫るタイムを連発し、若手スプリンターのエースとして活躍。
+        現在は世界のトップ選手と肩を並べる存在として期待されている。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>コメント</h2>
+      <p>
+        「世界一のスプリンターになるために、毎日全力で走り続けています。
+        応援してくれる皆さんの声が力になります。」
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>趣味・パーソナル</h2>
+      <ul>
+        <li><strong>趣味：</strong>写真撮影、カフェ巡り</li>
+        <li><strong>好きな食べ物：</strong>親子丼</li>
+        <li><strong>座右の銘：</strong>「限界は自分で決めない」</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 架空オリンピック選手プロフィール｜桜井 颯
+  </footer>
+
+</body>
+</html>
