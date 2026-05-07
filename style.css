@@ -36,7 +36,7 @@ img {
 /*　-ヘッダー　*/
 .header {
     padding-top: 40px;
-    background-image: url(images/stripe.png);
+    background-image: url(stripe.png);
     background-repeat: repeat-x;
 }
 .logo{
@@ -74,19 +74,19 @@ img {
 }
 .hero.index {
     padding: 287px 0px;
-    background-image: url(images/home-hero.jpg);
+    background-image: url(home-hero.jpg);
 }
 .hero.access {
       padding: 137px 0px;
-    background-image: url(images/access-hero.jpg);
+    background-image: url(access-hero.jpg);
 }
 .hero.menu {
     padding: 137px 0px;
-    background-image: url(images/menu-hero.jpg);
+    background-image: url(menu-hero.jpg);
 }
 .hero.contact {
     padding: 137px 0px;
-    background-image: url(images/contact-hero.jpg);
+    background-image: url(contact-hero.jpg);
 }
 /*　-メイン　*/
 main {
